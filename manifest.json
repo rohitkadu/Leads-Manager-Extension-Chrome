@@ -3,6 +3,9 @@
     "version": "1.0",
     "name": "Rohit's Lead Manager Extension",
     "description": "Rohit's Lead Manager is a powerful Chrome extension that helps you effortlessly capture and organize leads from any website",
+    "permissions": [
+        "tabs"
+    ],
     "action": {
         "default_popup": "index.html",
         "default_icon": "leads_icon.png"
